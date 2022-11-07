@@ -12,4 +12,16 @@ export const Container = styled.div`
     color: black;
     font-size: 16px;
   }
+  div {
+    &.select {
+      width: 250px;
+    }
+  }
+`;
+
+export const SelectWarpper = styled.div`
+  width: 250px;
+  input {
+    width: 250px;
+  }
 `;
